@@ -2,10 +2,12 @@
   "name": "print-folder",
   "type": "module",
   "main": "build/index.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "css": "tailwindcss -o css.css",
     "tsc": "tsc",
+    "up": "npm version patch -f",
+    "pub": "yarn up && npm publish",
     "dev": "npx tsc-watch --noClear --onSuccess 'yarn css'"
   },
   "peerDependencies": {
