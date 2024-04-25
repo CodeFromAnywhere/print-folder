@@ -15,3 +15,7 @@ The above command will create a pdf containing all text files in your CWD. Caref
 - Works with serverless optimised version of puppeteer (same as [here](https://www.umuttufanoglu.dev/blog/using-puppeteer-in-nextjs))
 - Prints all text-only pages into a HTML based on its markdown.
 - HTML is printed directly
+
+# Todo
+
+- Test this in a serverless environment with zip upload and pdf as downloadable response with redirect
