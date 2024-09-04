@@ -1,3 +1,5 @@
+> superseeded by https://github.com/CodeFromAnywhere/print-code
+
 # Print Folder
 
 Print folder is a package that helps making the barrier to print something much lower.
